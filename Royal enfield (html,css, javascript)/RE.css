@@ -1,0 +1,72 @@
+
+#CardSection{
+    display: flex;
+}
+
+#CardSection div{
+    width: 25%;
+    overflow: hidden;
+    height: 200px;
+
+}
+
+#CardSection div img{
+    width: 100%;
+    height: 200px;
+}
+
+#CardSection div p{
+    align-items: center;
+    position: relative;
+    bottom: 85px;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+#CardSection div img:hover{
+    transform: scale(1.1);
+    transition: 900ms ease-in-out;
+}
+
+
+/* I have missed the middle portion */
+
+#HeaderSection{
+background-color: black;
+color: white;
+padding-top: 15px;
+padding-bottom: 6px;
+
+
+}
+
+#HeaderSection ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 20px ;
+}
+
+.abc:hover {
+    color: rgb(255, 0, 0);
+}
+
+#ImageSection img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
