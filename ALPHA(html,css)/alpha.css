@@ -1,0 +1,193 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;    
+    background-size: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#HeaderSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#HeaderSection #left h1 {
+    font-size: 15px;
+    margin-left: 13px;
+}
+
+#HeaderSection #right ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style-type: none;
+}
+
+#HeaderSection #right ul li button {
+    width: 83px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    margin-right: 24px;
+
+}
+#BodySection{
+    text-align: center;
+    color: white;
+    margin-top: 102px;
+
+
+}
+
+#BodySection h1{
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+#BodySection p{
+    font-size: 20px;
+}
+
+#BodySection button{
+    width: 190px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border: none;
+    margin-right: 20px;
+
+}
+
+#BodySection #learn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+#ContentSection {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    padding: top 10px;;
+    border-radius: 5px;
+    margin-top: 180px;
+    color: #646464;
+}
+
+#ContentSection h1{
+    font-size: 22px;
+
+}
+
+
+
+
+
+ 
+#ContentSection p {
+    font-size: 19px;
+    border-top: 2px solid #e5e5e5;
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#ContentSection img{
+    width: 100%;
+}
+
+
+/* ******Mobile version ***** */
+
+#menu{
+    display: none;
+}
+
+@media(max-width:600px){
+    #menu{
+        display: inline-block;
+        color: white;
+        background-color: hsl(0, 4%, 77%);
+        padding: 5px 14px;
+        border-radius: 5px;
+    }
+
+    #HeaderSection{
+        display: none;
+    }
+
+    body{
+        background-size: 210%;
+        background-position-x: center;  
+    }
+
+    #BodySection{
+        width: 85%;
+        margin: auto;
+        color: white;
+    }
+    #BodySection h1{
+        font-size:35px ;
+        margin-bottom:0px ;
+    }
+
+    #BodySection button{
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        background-color: white;
+        color: black;
+        border: none;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+    #ContentSection {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        background-color: white;
+        padding: top 10px;
+        border-radius: 5px;
+        margin-top: 0px;
+        color: #646464;
+    }
+
+    br{
+        display: none;
+    }
+
+    #ContentSection h1{
+        font-size: 100%;
+    }
+
+    #ContentSection p {
+        font-size: 19px;
+        border-top: 2px solid #e5e5e5;
+        width: 90%;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
